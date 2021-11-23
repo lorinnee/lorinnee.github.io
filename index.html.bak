@@ -1,19 +1,33 @@
 <html>
 <title> Lipton </title>
+
 <body>
 <h2> Welcome to <img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/lipton1.gif"> http://www.lipton.com  </h2>
 <hr>
 <a href="https://web.archive.org/web/19961109150628/http://www.lipton.com:80/"> Ask Lipton </a>
 <hr>
-<img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/kitch.gif">
+
+<table width="20%" border=0px cellspacing=1> 
+	<tr> 
+		<td><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/intro.gif"></td>
+		<td align="center"><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/kitch.gif"></td>
+		<td><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/1800num.gif"></td>
+	</tr>
 <hr>
+</table>
+
 <h1> Introduction </h1>
 <p> Welcome to the Lipton Home Page, brought to you by the Lipton Internet team! 
 Our <a href="https://web.archive.org/web/19961109150628/http://www.lipton.com:80/mission"> Mission </a> is to provide net-surfers a place to explore information about Lipton, 
 and to participate as a committed member of the Internet community. 
 Most of all, we would like both newcomers to the internet, as well as experienced users, to have fun, 
 and learn a little something along the way. The web counter shows you are visitor number <img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/cgi-bin/Count.cgi?dd=E|tr=T|trgb=ffffff|ft=0&df=lipton.dat"> - thank you for your interest. 
-This site has been tailored for information about Lipton in the USA, however, you can make the most of our <a href="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/cgi-bin/Count.cgi?dd=E|tr=T|trgb=ffffff|ft=0&df=lipton.dat"> links to sites worldwide </a> to find our sister companies both in the USA and around the world.
+This site has been tailored for information about Lipton in the USA, however, you can make the most of our <a href="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/cgi-bin/Count.cgi?dd=E|tr=T|trgb=ffffff|ft=0&df=lipton.dat"> links to sites worldwide </a> to find our sister companies both in the USA and around the world.</p>
 <tr>
+
+<h1> Lipton Tea</h1>
+<p> 
+
+
 </body>
 </html>
