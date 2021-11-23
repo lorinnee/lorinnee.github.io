@@ -2,9 +2,9 @@
 <title> Lipton </title>
 
 <body>
-<h2> Welcome to <img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/lipton1.gif"> http://www.lipton.com  </h2>
+<h3> Welcome to <img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/lipton1.gif"> http://www.lipton.com  </h3>
 <hr>
-<a href="https://web.archive.org/web/19961109150628/http://www.lipton.com:80/"> Ask Lipton </a>
+<h2><a href="https://web.archive.org/web/19961109150628/http://www.lipton.com:80/"> Ask Lipton </a></h2>
 <hr>
 
 <table width="20%" border=0px cellspacing=1> 
@@ -13,9 +13,14 @@
 		<td align="center"><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/kitch.gif"></td>
 		<td><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/1800num.gif"></td>
 	</tr>
-<hr>
+	<tr>
+		<td><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/news.gif"></td>
+		<td><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/wecare.gif"></td>
+		<td><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/newicon.gif"></td>
+	</tr>
 </table>
 
+<hr>
 <h1> Introduction </h1>
 <p> Welcome to the Lipton Home Page, brought to you by the Lipton Internet team! 
 Our <a href="https://web.archive.org/web/19961109150628/http://www.lipton.com:80/mission"> Mission </a> is to provide net-surfers a place to explore information about Lipton, 
