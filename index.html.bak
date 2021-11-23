@@ -12,14 +12,20 @@
 
 <table width="20%" border=0px cellspacing=1> 
 	<tr> 
-		<td><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/intro.gif"></td>
-		<td align="center"><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/kitch.gif"></td>
-		<td><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/1800num.gif"></td>
+		<td>
+			<a href="https://www.google.com/"><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/intro.gif"></a></td>
+		<td align="center">
+			<a href="https://www.google.com/"><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/kitch.gif"></a></td>
+		<td>
+			<a href="https://www.google.com/"><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/1800num.gif"></a></td>
 	</tr>
 	<tr>
-		<td><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/news.gif"></td>
-		<td><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/wecare.gif"></td>
-		<td><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/newicon.gif"></td>
+		<td>
+			<a href="https://www.google.com/"><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/news.gif"></a></td>
+		<td>
+			<a href="https://www.google.com/"><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/wecare.gif"></a></td>
+		<td>
+			<a href="https://www.google.com/"><img src="https://web.archive.org/web/19961109150628im_/http://www.lipton.com/newicon.gif"></a></td>
 	</tr>
 </table>
 
