@@ -25,10 +25,6 @@ background-color:rgb(171, 179, 182);
   box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
 }
 
-.video{
-  display: flex;
-  
-    }
  
 .buttons{
   display: flex;
