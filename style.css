@@ -34,7 +34,7 @@ background-color:rgb(171, 179, 182);
   display: flex;
   background-color:pink;
   flex-direction:row;
-  align-item:center;
+  align-items:center;
   gap:22px;
 }
 
