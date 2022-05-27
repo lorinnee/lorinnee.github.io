@@ -4,17 +4,19 @@ background-color:rgb(171, 179, 182);
 .fondo{
   display: flex;
   flex-direction:column;
+  flex-wrap: nowrap;
   background-color:rgb(22, 179, 182);
   align-items:center;
   justify-content:center;
-  margin:147px;
+  margin:20%;
   gap:22px;
   
   
  }
 .scheda{
   display: flex;
-  background-color:white;
+  flex-wrap: nowrap;
+  background-color: white;
   border-radius: 20px;
   height:654px;
   width:582px;
