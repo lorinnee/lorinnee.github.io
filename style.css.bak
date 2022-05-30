@@ -15,7 +15,7 @@ background-color:rgb(171, 179, 182);
  }
 .scheda{
   display: flex;
-  flex-wrap: nowrap;
+
   background-color: white;
   border-radius: 20px;
   height:654px;
