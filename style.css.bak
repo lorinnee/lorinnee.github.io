@@ -1,70 +1,79 @@
+
+
 body{
 background-color:rgb(171, 179, 182);
+font-family: verdana;
 }
 .fondo{
   display: flex;
   flex-direction:column;
   flex-wrap: nowrap;
-  background-color:rgb(22, 179, 182);
+  background-color:rgb(171, 179, 182);
   align-items:center;
   justify-content:center;
-  margin:20%;
+  height:100vh;
   gap:22px;
   
   
  }
 .scheda{
-  display: flex;
-
-  background-color: white;
+  padding-bottom:20px;
+  width:70vmin;
+  min-width:500px;
+  background-color: green;
   border-radius: 20px;
-  height:654px;
-  width:582px;
-  font-size: 16px;
-  font-family: verdana;
-  justify-content:center;
-  flex-wrap:wrap;
+  text-align:center;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
 }
 
  
 .buttons{
   display: flex;
-  background-color:pink;
+  width:70vmin;
+  min-width:500px;
+  background-color:(171, 179, 182);
   flex-direction:row;
   align-items:center;
+  justify-content:space-between;
   gap:22px;
 }
 
 
 .button_left{
-  display: flex;
+  
   background-color: white;
   height: 92px;
-  width: 276px;
+  width: 45%;
   border: none;
   border-radius: 8px;
   color: black;
-  font-size: 16px;
-  font-family: verdana;
-  align-items:center;
-  justify-content:center;
+ 
   cursor: pointer;
   box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
   }
 
 .button_right{
-  display: flex;
+  
   background-color: white;
   height: 92px;
-  width: 276px;
+  width: 45%;
   border: none;
   border-radius: 8px;
   color: black;
-  font-size: 16px;
-  font-family: verdana;
-  align-items:center;
-  justify-content:center;
+  
   cursor: pointer;
   box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
+  }
+  
+  #robot{
+	  position:absolute;
+	  height:125px;
+	  top:80vh;
+	  right:80px;
+  }
+  
+  .audiobutton{
+	 position:absolute;
+	 bottom:10vh;
+	 left:80px;
   }
