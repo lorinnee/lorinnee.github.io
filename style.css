@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
 body{
 background-color:rgb(171, 179, 182);
-font-family: verdana;
+font-family: 'Nunito', sans-serif;;
+
 }
 .fondo{
   display: flex;
@@ -20,7 +21,7 @@ font-family: verdana;
   padding-bottom:20px;
   width:70vmin;
   min-width:500px;
-  background-color: green;
+  background-color: #ffffd8;
   border-radius: 20px;
   text-align:center;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
@@ -41,28 +42,28 @@ font-family: verdana;
 
 .button_left{
   
-  background-color: white;
+  background-color: #ffffd8;
   height: 92px;
   width: 45%;
   border: none;
   border-radius: 8px;
   color: black;
- 
   cursor: pointer;
   box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
+  font-size:20px;
   }
 
 .button_right{
   
-  background-color: white;
+  background-color: #ffffd8;
   height: 92px;
   width: 45%;
   border: none;
   border-radius: 8px;
   color: black;
-  
   cursor: pointer;
   box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
+  font-size:20px;
   }
   
   #robot{
@@ -72,8 +73,38 @@ font-family: verdana;
 	  right:80px;
   }
   
-  .audiobutton{
-	 position:absolute;
-	 top:90vh;
-	 left:80px;
-  }
+ 
+<!-- tasto audio -->
+ .checkbox-custom{
+    opacity: 0;
+    position: absolute;   
+	
+}
+
+.checkbox-custom, .checkbox-custom-label{
+   position:absolute;
+	top:95vh;
+	left:80px;
+}
+
+
+.checkbox-custom + .checkbox-custom-label:before{
+    content: "\f028";
+    font-family: 'FontAwesome';
+    background: #ffffd8;
+	color: black;
+    display: inline-block;
+    padding:50%;
+	width: 15px;
+    height: 15px;
+  	border-radius:50%;
+	text-align:center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    content: "\f026";
+    font-family: 'FontAwesome';
+    background: #ffffd8;
+    color: black;
+}
+

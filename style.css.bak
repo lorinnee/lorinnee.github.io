@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
 body{
 background-color:rgb(171, 179, 182);
-font-family: verdana;
+font-family: 'Nunito', sans-serif;;
+
 }
 .fondo{
   display: flex;
@@ -20,7 +21,7 @@ font-family: verdana;
   padding-bottom:20px;
   width:70vmin;
   min-width:500px;
-  background-color: green;
+  background-color: #ffffd8;
   border-radius: 20px;
   text-align:center;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
@@ -41,28 +42,28 @@ font-family: verdana;
 
 .button_left{
   
-  background-color: white;
+  background-color: #ffffd8;
   height: 92px;
   width: 45%;
   border: none;
   border-radius: 8px;
   color: black;
- 
   cursor: pointer;
   box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
+  font-size:20px;
   }
 
 .button_right{
   
-  background-color: white;
+  background-color: #ffffd8;
   height: 92px;
   width: 45%;
   border: none;
   border-radius: 8px;
   color: black;
-  
   cursor: pointer;
   box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
+  font-size:20px;
   }
   
   #robot{
@@ -72,8 +73,74 @@ font-family: verdana;
 	  right:80px;
   }
   
-  .audiobutton{
-	 position:absolute;
-	 bottom:10vh;
-	 left:80px;
-  }
+ 
+<!-- tasto audio -->
+ .checkbox-custom{
+    opacity: 0;
+    position: absolute;   
+	
+}
+
+.checkbox-custom, .checkbox-custom-label{
+   position:absolute;
+	top:95vh;
+	left:80px;
+}
+
+
+.checkbox-custom + .checkbox-custom-label:before{
+    content: "\f028";
+    font-family: 'FontAwesome';
+    background: #ffffd8;
+	color: black;
+    display: inline-block;
+    padding:50%;
+	width: 15px;
+    height: 15px;
+  	border-radius:50%;
+	text-align:center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    content: "\f026";
+    font-family: 'FontAwesome';
+    background: #ffffd8;
+    color: black;
+}
+
+p {
+	
+	position: relative;
+	max-width: 30em;
+	
+	
+	background-color: #fff;
+	padding: 1.125em 1.5em;
+	font-size: 1.25em;
+	border-radius: 1rem;
+  box-shadow:	0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
+}
+
+p::before {
+	
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 100%;
+	left: 1.5em; 
+	border: .75rem solid transparent;
+	border-top: none;
+
+	
+	border-bottom-color: #fff;
+	filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
+}
+
+html {
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+	line-height: 1.5;
+	font-weight: 300;
+	color: #192229;
+	background: linear-gradient(135deg, #F4F2F3, #BFC6D0);
+}

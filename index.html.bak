@@ -1,26 +1,33 @@
 <html>
-<head>
-<title> Oh,sheep!</title>
-<link rel="stylesheet" href="style.css" type="text/css">
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-</head>
-<body>
+ <head>
+  <title> Oh,sheep!</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <script src="java.js" type="text/javascript"> </script>
+ </head>
+ <body>
   <div class="fondo">
      <!-- scheda -->
-     <div class="scheda">
+      <div class="scheda">
        <h1>Feed dolly</h1>
-         <video height=450 width= 450 muted loop >
-          <source src="video/videoprova.mp4" type="video/mp4">   
-          Your browser does not support the video element
+         <video height=450 width= 450 autoplay muted loop >
+           <source src="video/videoprova.mp4" type="video/mp4">   
+           Your browser does not support the video element
          </video>
       </div>
         <!-- buttons -->
-        <div class="buttons" >
-          <button class="button_left">YES</button>
-          <button class="button_right">NO</button> 
+         <div class="buttons" >
+          <button class="button_left">Yes</button>
+          <button class="button_right">No</button> 
          </div>
-	</div>
+  </div>
+  <p>If you have one bucket that contains 2 gallons and another bucket that contains 7 gallons, how manyhhhhhhhhhhhhhhhhhhhhhhhhhhhh buckets do you have?</p>
    <img id="robot" src ="immagini/robot01.png">
-   
-</body>
+      <div>
+    <input class="checkbox-custom" type="checkbox" onchange= "unmuted()" id="muter"/ checked >
+	<label for="muter" class="checkbox-custom-label"></label>
+      </div>
+  
+ </body>
 </html>
