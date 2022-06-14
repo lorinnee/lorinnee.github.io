@@ -139,7 +139,7 @@ font-family: 'Nunito', sans-serif;;
 @media screen and (max-width: 600px) {
 
 #robot{
-width:50%;
+width:25%;
 }
   .allrobot{
 	flex-direction:row;
