@@ -16,8 +16,10 @@ font-family: 'Nunito', sans-serif;;
   gap:22px;
   
   
+  
  }
 .scheda{
+ 
   padding-bottom:20px;
   width:70vmin;
   min-width:500px;
@@ -26,6 +28,8 @@ font-family: 'Nunito', sans-serif;;
   text-align:center;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
 }
+
+ 
 
  
 .buttons{
@@ -66,12 +70,34 @@ font-family: 'Nunito', sans-serif;;
   font-size:20px;
   }
   
-  #robot{
-	  position:absolute;
-	  height:125px;
-	  top:80vh;
-	  right:80px;
+  .allrobot{
+	display:flex;
+	flex-direction:column;
+	position:absolute;
+	width:30vmin;
+	top:57vh;
+	right:80px;
+	background-color:green;
+	gap:5px;
   }
+  
+ 
+  
+ 
+  
+  .bubble {
+   font-size: 0.875em;
+  width: 250px;
+  background:  #ffffd8;
+  border-radius: 8px;
+  padding: 24px;
+  text-align: center;
+  //right:80px;
+  box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
+  
+}
+
+
   
  
 <!-- tasto audio -->
@@ -83,8 +109,9 @@ font-family: 'Nunito', sans-serif;;
 
 .checkbox-custom, .checkbox-custom-label{
    position:absolute;
-	top:95vh;
+	top:90vh;
 	left:80px;
+	box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
 }
 
 
@@ -108,3 +135,18 @@ font-family: 'Nunito', sans-serif;;
     color: black;
 }
 
+
+
+@media screen and (max-width: 600px) {
+  
+ 
+  
+  .allrobot{
+	position:relative;
+	width:100%;
+	top:0vh;
+	right:0vw;
+	flex-direction:row;
+  }
+  
+}
