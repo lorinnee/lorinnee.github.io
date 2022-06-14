@@ -12,8 +12,7 @@ font-family: 'Nunito', sans-serif;;
   background-color:rgb(171, 179, 182);
   align-items:center;
   justify-content:center;
- // height:100vh;
-  gap:22px;
+  gap:2vh;
   
   
  }
@@ -36,15 +35,14 @@ font-family: 'Nunito', sans-serif;;
   flex-direction:row;
   align-items:center;
   justify-content:space-between;
-  gap:22px;
+  gap:2vh;
 }
 
 
 .button_left{
   background-color: #ffffd8;
-  //height: 92px;
   padding:6%;
-  width: 45%;
+  width: 50%;
   border: none;
   border-radius: 8px;
   color: black;
@@ -55,9 +53,8 @@ font-family: 'Nunito', sans-serif;;
 
 .button_right{
   background-color: #ffffd8;
-  //height: 92px;
   padding:6%;
-  width: 45%;
+  width: 50%;
   border: none;
   border-radius: 8px;
   color: black;
@@ -70,23 +67,22 @@ font-family: 'Nunito', sans-serif;;
 	display:flex;
 	flex-direction:column;
 	position:absolute;
-	top:57vh;
+	top:61vh;
 	right:10vh;
-	background-color:green;
+    justify-content:center;
 	align-items:flex-end;
-	gap:5px;
+	gap:3%;
 
   }
   
 
   .bubble {
-  position: relative;
-  
-  font-size: 0.875em;
-  width: 250px;
-  background:  #ffffd8;
+  background-color:#ffffd8;  
+  font-size: 14px;
+  width: 200px;
+ 
   border-radius: 8px;
-  padding: 24px;
+  padding: 5%;
  
   text-align: center;
   
@@ -139,14 +135,17 @@ font-family: 'Nunito', sans-serif;;
 @media screen and (max-width: 600px) {
 
 #robot{
-width:50%;
+width:25%;
 }
   .allrobot{
 	flex-direction:row;
     position:relative;
-    width:100%;
-    top:0vh;
+    top:1vh;
     right:0vw;
-    
-  }
+	align-items: center;
+   }
+   
+.bubble{
+   padding: 3%;
+   }
 }
