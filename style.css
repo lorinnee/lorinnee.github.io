@@ -94,16 +94,16 @@ background-color:green;
  
 <!-- tasto audio -->
  .checkbox-custom{
-    opacity: 0;
+    display:none;
     position: absolute;   
 	
 }
 
 .checkbox-custom, .checkbox-custom-label{
-   position:absolute;
+    position:absolute;
 	top:90vh;
 	left:80px;
-	box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
+	
 }
 
 
@@ -134,7 +134,7 @@ background-color:green;
 @media screen and (max-width: 600px) {
 
 .fondo{
-	margin-top:20vh;
+	margin-top:15vh;
 }
 
 #robot{
@@ -151,4 +151,11 @@ width:25%;
 .bubble{
    padding: 3%;
    }
+   
+.checkbox-custom, .checkbox-custom-label{
+    position:absolute;
+	top:10vh;
+	left:45vh;
+	
+}
 }
