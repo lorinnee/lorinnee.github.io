@@ -13,6 +13,7 @@ font-family: 'Nunito', sans-serif;;
   align-items:center;
   justify-content:center;
   gap:2vh;
+  margin:5vh;
   
   
  }
@@ -22,7 +23,8 @@ font-family: 'Nunito', sans-serif;;
   background-color: #ffffd8;
   border-radius: 10px;
   text-align:center;
-  box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.1); 
+  
 }
 
  
