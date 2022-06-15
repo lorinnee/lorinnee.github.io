@@ -10,7 +10,7 @@
   <div class="fondo">
      <!-- scheda -->
       <div class="scheda">
-       <h1>Feed dolly</h1>
+       <h1 style="font-size:2vw;">Feed dolly</h1>
          <video height=90% width= 90% autoplay muted loop >
            <source src="video/videoprova.mp4" type="video/mp4">   
            Your browser does not support the video element
@@ -27,7 +27,7 @@
    <img id="robot" src ="immagini/robot01.png">
   </div>
       <div>
-    <input  type="checkbox" onchange= "unmuted()" id="muter"/ checked >
+    <input class="checkbox-custom" type="checkbox" onchange= "unmuted()" id="muter"/ checked >
 	<label for="muter" class="checkbox-custom-label"></label>
       </div>
   
