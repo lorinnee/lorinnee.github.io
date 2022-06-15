@@ -154,7 +154,7 @@ width:20%;
 .bubble{
    width:40%;
    padding: 2%;
-   font-size:14px;
+   font-size:13px;
    margin:0;
    
    }
