@@ -72,13 +72,14 @@ margin:0;
 	flex-direction:column;
 	position:absolute;
 	bottom:5vh;
-	right:10vh;
+	right:5vw;
     justify-content:center;
 	align-items:flex-end;
 	
 background-color:blue;
   }
-  
+
+
 
   .bubble {
   background-color:#ffffd8;  
@@ -90,7 +91,9 @@ background-color:blue;
   box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
 }
 
-
+#robot{
+width:70%;
+}
   
  
 <!-- tasto audio -->
@@ -103,7 +106,7 @@ background-color:blue;
 .checkbox-custom, .checkbox-custom-label{
     position:absolute;
     top:90vh;
-    left:80px;
+    left:10vw;
 
 }
 
@@ -130,34 +133,72 @@ background-color:blue;
 
 
 
+@media screen and (max-width: 767px) {
+.fondo{
+	margin-top:15vh;
+}
+
+#robot{
+width:20%;
+}
+  .allrobot{
+	flex-direction:row;
+    position:relative;
+	right:0vw;
+	bottom:2vh;
+	align-items: center;
+	justify-content:center;
+	gap:3%;
+   }
+   
+.bubble{
+   width:40%;
+   padding: 2%;
+   font-size:13px;
+   margin:0;
+   
+   }
+   
+.checkbox-custom, .checkbox-custom-label{
+    position:absolute;
+	top:10vh;
+	left:77vw;
+    }
+}
   
  
 @media screen and (max-width: 480px) {
-
 .fondo{
 	margin-top:15vh;
 	
 }
 
 #robot{
-width:25%;
+width:20%;
 }
   .allrobot{
 	flex-direction:row;
     position:relative;
+	
     right:0vw;
+	bottom:2vh;
 	align-items: center;
+	justify-content:center;
 	gap:3%;
    }
    
 .bubble{
-   padding: 3%;
+	width:40%;
+   padding: 2%;
    font-size:12px;
+   margin:0;
+   
    }
    
 .checkbox-custom, .checkbox-custom-label{
     position:absolute;
 	top:10vh;
-	//left:45vh;
+	left:77vw;
+    }
 }
-}
+
