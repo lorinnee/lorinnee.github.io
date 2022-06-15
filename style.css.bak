@@ -13,7 +13,7 @@ font-family: 'Nunito', sans-serif;;
   align-items:center;
   justify-content:center;
   gap:2vh;
-  margin:5vh;
+  margin-top:5vh;
   
   
  }
@@ -74,7 +74,7 @@ font-family: 'Nunito', sans-serif;;
     justify-content:center;
 	align-items:flex-end;
 	gap:3%;
-
+background-color:green;
   }
   
 
@@ -132,6 +132,10 @@ font-family: 'Nunito', sans-serif;;
   
  
 @media screen and (max-width: 600px) {
+
+.fondo{
+	margin-top:15vh;
+}
 
 #robot{
 width:25%;

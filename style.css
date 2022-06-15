@@ -13,7 +13,7 @@ font-family: 'Nunito', sans-serif;;
   align-items:center;
   justify-content:center;
   gap:2vh;
-  margin:5vh;
+  margin-top:5vh;
   
   
  }
@@ -132,6 +132,10 @@ background-color:green;
   
  
 @media screen and (max-width: 600px) {
+
+.fondo{
+	margin-top:20vh;
+}
 
 #robot{
 width:25%;
