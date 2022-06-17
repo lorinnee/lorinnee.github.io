@@ -1,0 +1,30 @@
+<html>
+ <head>
+  <title> Oh,sheep!</title>
+  <link rel="stylesheet" href="C:/Users/Lorena/Documents/GitHub/lorinnee.github.io/schede/schede_style.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <script src="java_schede.js" type="text/javascript"> </script>
+ </head>
+ <body>
+  <div class="fondo">
+     <!-- scheda -->
+      <div class="scheda">
+       <h1>Nutri D011yX</h1>
+         <video height=90% width= 90% id="change"autoplay muted loop >
+           <source src="video_nutri/composizione01.mp4"  type="video/mp4">   
+           Your browser does not support the video element
+         </video>
+      </div>
+        <!-- buttons -->
+         <div class="buttons" >
+          <button  onClick="changevid('video_nutri/erba.mp4')" id="button_left">Erba</button>
+          <button  onclick="changevid('video_nutri/metallo.mp4')" id="button_right">Metallo</button> 
+         </div>
+  </div>
+  <div class="allrobot">
+  <p class="bubble">Lorem ipsum dolor sit amet, consectetur adipisci elit, D011y  </p>
+   <img id="robot" src ="immagini/robot01.png">
+  </div> 
+ </body>
+</html>
