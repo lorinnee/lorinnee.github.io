@@ -61,16 +61,18 @@ width:40%;
  .start{
 	 width: 17%;
 	font-size:22px; 
-}
+ }
 }
 
 
 @media screen and (max-width: 480px){
+	
  #logo{
- width:60%;
+ width:80%;
  }
  
  .start{
-	 width: 22%;
+	 width: 24%;
 	font-size:16px; 
+ }
 }

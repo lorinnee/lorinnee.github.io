@@ -50,9 +50,7 @@ width:40%;
   text-align:center;
   }
   
-@media screen and (max-width: 1024px){
-	
-}
+
 
 
 @media screen and (max-width: 767px){
@@ -63,16 +61,18 @@ width:40%;
  .start{
 	 width: 17%;
 	font-size:22px; 
-}
+ }
 }
 
 
 @media screen and (max-width: 480px){
+	
  #logo{
- width:60%;
+ width:100%;
  }
  
  .start{
-	 width: 22%;
+	 width: 24%;
 	font-size:16px; 
+ }
 }
