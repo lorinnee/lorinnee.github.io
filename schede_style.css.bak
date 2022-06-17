@@ -4,7 +4,7 @@ body{
 background-color:#B4BFD3;
 font-family: 'Nunito', sans-serif;
 margin:0;
-
+color:1E3013;
 }
 .fondo{
   display: flex;
@@ -14,9 +14,7 @@ margin:0;
   justify-content:center;
   gap:2vh;
   padding:5vh;
-  
-  
-  
+
  }
 .scheda{
   padding-bottom:20px;
@@ -41,11 +39,12 @@ margin:0;
 
 #button_left{
   background-color: #FFF9F0;
+  color:black;
+  font-family: 'Nunito', sans-serif;
   padding:6%;
   width: 50%;
   border: none;
   border-radius: 8px;
-  color: black;
   cursor: pointer;
   box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
   font-size:20px;
@@ -53,11 +52,12 @@ margin:0;
 
 #button_right{
   background-color: #FFF9F0;
+   color:black;
+  font-family: 'Nunito', sans-serif;
   padding:6%;
   width: 50%;
   border: none;
   border-radius: 8px;
-  color: black;
   cursor: pointer;
   box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
   font-size:20px;
@@ -66,11 +66,12 @@ margin:0;
   
  #button_left:active{
   background-color: #FFF9F0;
+  color:black;
+  font-family: 'Nunito', sans-serif;
   padding:6%;
   width: 50%;
   border: none;
   border-radius: 8px;
-  color: black;
   cursor: pointer;
   box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
   font-size:20px;
@@ -79,11 +80,12 @@ margin:0;
 
 #button_right:active{
   background-color: #FFF9F0;
+   color:black;
+  font-family: 'Nunito', sans-serif;
   padding:6%;
   width: 50%;
   border: none;
   border-radius: 8px;
-  color: black;
   cursor: pointer;
   box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
   font-size:20px;

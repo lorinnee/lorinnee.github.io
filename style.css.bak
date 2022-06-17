@@ -5,6 +5,7 @@ background-color:#518C31;
 font-family: 'Nunito', sans-serif;
 margin:0;
 
+
 }
 
 .fondo{
@@ -13,7 +14,7 @@ margin:0;
   flex-wrap: nowrap;
   align-items:center;
   justify-content:center;
-  gap:2vh;
+  gap:3vh;
   padding:5vh;
   height:80vh;
 
@@ -25,11 +26,12 @@ width:40%;
 
 .start{
   background-color:#FFF9F0;
+  font-family: 'Nunito', sans-serif;
+  color:1E3013;
   padding:2%;
   width: 17%;
   border: none;
   border-radius: 8px;
-  color: black;
   cursor: pointer;
   box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
   font-size:24px;
@@ -38,11 +40,12 @@ width:40%;
 
 .start:active{
   background-color: #FFF9F0;
+  font-family: 'Nunito', sans-serif;
+  color:1E3013;
   padding:2%;
   width: 17%;
   border: none;
   border-radius: 8px;
-  color: black;
   cursor: pointer;
   box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
   font-size:24px;
@@ -62,17 +65,25 @@ width:40%;
 	 width: 17%;
 	font-size:22px; 
  }
+ .start:active{
+	 width: 17%;
+	font-size:22px; 
+ }
 }
 
 
 @media screen and (max-width: 480px){
 	
  #logo{
- width:100%;
+ width:80%;
  }
  
  .start{
-	 width: 24%;
-	font-size:16px; 
+	 width: 30%;
+	font-size:22px; 
+ }
+ .start:active{
+	 width: 30%;
+	font-size:22px; 
  }
 }
