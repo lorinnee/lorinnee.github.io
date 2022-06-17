@@ -8,7 +8,7 @@
  </head>
  <body>
   <div class="fondo">
-  
+    <img id="logo" src ="immagini/logo.png">
    <button onclick="document.location='schede/nutri/scheda_nutri.html'" class="start">START</button>
   </div>
  </body>
