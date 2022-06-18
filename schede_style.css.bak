@@ -4,7 +4,7 @@ body{
 background-color:#B4BFD3;
 font-family: 'Nunito', sans-serif;
 margin:0;
-color:1E3013;
+color:191411;
 }
 .fondo{
   display: flex;
