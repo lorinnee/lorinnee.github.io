@@ -1,4 +1,6 @@
-
+function videoEnded() {
+      location.href="https://www.google.com";
+   }
 
 function changevid(buttonlink){
 document.getElementById('change').src = buttonlink;
