@@ -11,7 +11,7 @@
      <!-- scheda -->
       <div class="scheda">
        <h1 id="domanda"></h1>
-         <video  width= 90% id="source" onended="change()" playsinline autoplay muted loop>
+         <video  width= 90% id="source" onended="change()" style="pointer-events: none;" playsinline autoplay muted loop>
            
          </video>
       </div>
