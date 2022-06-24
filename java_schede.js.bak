@@ -1,6 +1,3 @@
-
-<!-- testi -->
-
 var dict = {
   domandauno: "Nutri D011yX",
   rispostaFieno:"Fieno",
@@ -8,9 +5,11 @@ var dict = {
   domandadue: "Nascondi D011yX",
   rispostaLampione:"Lampione",
   rispostaCespuglio: "Cespuglio",
+   domandatre: "Pulisci D011yX",
+  rispostaLava:"Lava",
+  rispostaRasa: "Rasa",
+  
 };
-
-<!-- video -->
 
 var sorgente = document.getElementById("source");
 

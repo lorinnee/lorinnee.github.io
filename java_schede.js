@@ -1,28 +1,21 @@
-
-<!-- testi -->
-
 var dict = {
   domandauno: "Nutri D011yX",
   rispostaFieno:"Fieno",
   rispostaMetallo: "Metallo",
-  
   domandadue: "Nascondi D011yX",
   rispostaLampione:"Lampione",
   rispostaCespuglio: "Cespuglio",
+  domandatre: "Pulisci D011yX",
+  rispostaLava:"Lava",
+  rispostaRasa: "Rasa",
   
-  domandadue: "Pulisci D011yX",
-  rispostaLampione:"Lava",
-  rispostaCespuglio: "Rasoio",
 };
-
-<!-- video -->
 
 var sorgente = document.getElementById("source");
 
 var video ={
 	videoUno: "video_nutri/scheda01.mp4",
 	videoFieno:"video_nutri/fieno.mp4"
-	videoFieno:"video_nutri/fiori.mp4"
 };
 
 
