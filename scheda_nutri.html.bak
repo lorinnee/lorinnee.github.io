@@ -23,7 +23,7 @@
          </div>
   </div>
   <div class="allrobot">
-     <p class="bubble"> Lorem ipsum dolor <br> sit amet, consectetur adipisci elit,<br> D011y </p> 
+     <p class="bubble"> Lorem ipsum dolor sit amet, consectetur adipisci elit, D011y </p> 
 	  <img id="robot" src ="immagini/base.png">
 	 </div>
    </body>

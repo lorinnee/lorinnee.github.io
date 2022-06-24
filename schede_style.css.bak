@@ -123,8 +123,8 @@ color:191411;
     font-size: 14px;
     padding: 5%;
     text-align: center;
-    min-width: 200px;
-	min-height:50px;
+    width: 200px;
+	height:50px;
     border-radius: 8px;
     border-bottom-right-radius:0px;
     box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
@@ -145,7 +145,7 @@ color:191411;
 	transform: rotate(-180deg);
  }
   
- p{
+ //p{
 	 
 	 // white-space: nowrap;
 		//overflow: hidden;
@@ -153,7 +153,7 @@ color:191411;
   }
   
   
-@keyframes typewriter {
+//@keyframes typewriter {
 		from {
 		width: 0%;
 		}
