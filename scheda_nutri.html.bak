@@ -11,20 +11,20 @@
      <!-- scheda -->
       <div class="scheda">
        <h1 id="domanda"></h1>
-         <video  width= 90% id="source" onended="change()" style="pointer-events: none;" playsinline autoplay muted loop>
+         <video  width= 90% id="source" onended="change()"  playsinline autoplay muted loop>
            
          </video>
       </div>
         <!-- buttons -->
          <div class="buttons" >
-          <button onClick="changeVideo()" id="button_left"></button>
-          <button onClick="changeVideo()" id="button_right"></button> 
+          <button onClick="changeVideo(this.id)" id="button_left"></button>
+          <button onClick="changeVideo(this.id)" id="button_right"></button>
          </div>
   </div>
   <div class="allrobot">
-     <p class="bubble"></p> 
+     <p id="bubble" class="bubble"></p> 
 	  <img id="robot" src ="immagini/base.png">
 	 </div>
-	 <script src="java_schede.js" type="text/javascript"> </script>
+	 <script src="javaSchede.js" type="text/javascript"> </script>
    </body>
 </html>

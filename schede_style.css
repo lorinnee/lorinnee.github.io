@@ -117,7 +117,7 @@ color:191411;
 }
 
 
-.bubble {
+#bubble {
     position: relative;
     background-color: #FFF9F0;
     font-size: 14px;
@@ -130,7 +130,7 @@ color:191411;
     box-shadow: 8px 8px 5px rgba(0,0,0,0.1);
 }
 
-.bubble:after {
+ #bubble:after {
     content: '';
     position: absolute;
     display: block;
@@ -154,6 +154,7 @@ color:191411;
   
   
 //@keyframes typewriter {
+
 		from {
 		width: 0%;
 		}
@@ -189,14 +190,14 @@ width:20%;
 	gap:5%;
    }
    
-.bubble{
+#bubble{
 width:40%;
    padding: 2%;
    font-size:12px;
    margin:0;
    }
    
-.bubble:after {
+#bubble:after {
     content: '';
     position: absolute;
     display: block;

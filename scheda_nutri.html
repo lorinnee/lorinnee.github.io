@@ -17,14 +17,14 @@
       </div>
         <!-- buttons -->
          <div class="buttons" >
-          <button onClick="changeVideo()" id="button_left"></button>
-          <button onClick="changeVideo()" id="button_right"></button> 
+          <button onClick="changeVideo(this.id)" id="button_left"></button>
+          <button onClick="changeVideo(this.id)" id="button_right"></button>
          </div>
   </div>
   <div class="allrobot">
-     <p class="bubble"></p> 
+     <p id="bubble"></p> 
 	  <img id="robot" src ="immagini/base.png">
 	 </div>
-	 <script src="java_schede.js" type="text/javascript"> </script>
+	 <script src="javaSchede.js" type="text/javascript"> </script>
    </body>
 </html>
