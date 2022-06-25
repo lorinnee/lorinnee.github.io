@@ -35,12 +35,50 @@ var data = [
     domanda: "Pulisci D011yX",
     rispostaSinistra: "Lava",
     rispostaDestra: "Tosa",
+	video: "video/scheda03.mp4",
+	videoSinistra: "video/detersivo.mp4",
+    videoDestra: "video/rasoio.mp4",
+	primoBubble:"1",
+	secondoBubble:"2",
+	terzoBubble:"3",
+	quartoBubble:"alza il culo dalla sedia",
+	reactionSinistra:"Scemo, non lo sai che la lana si lava in acqua fredda?",
+	reactionDestra:"Oh bel lavoro! *Ironico* ",
+  },
+   {
+    domanda: "Aiuta D011yX",
+    rispostaSinistra: "Veliero",
+    rispostaDestra: "Zattera",
+	video: "video/scheda04.mp4",
+	videoSinistra: "video/veliero.mp4",
+    videoDestra: "video/zattera.mp4",
+	primoBubble:"D011yX vuole cambiare sponda,scegli il mezzo adatto ",
+	secondoBubble:"2",
+	terzoBubble:"3",
+	quartoBubble:"4",
+	reactionSinistra:"Ahrrrrr! Per tutti i bucanieri! Un lupo di mare! ",
+	reactionDestra:"chi sceglierebbe una zattera?",
+  },
+  {
+    domanda: "Quante D011y ci sono?",
+    rispostaSinistra: "Trentadue",
+    rispostaDestra: "Uno",
+	video: "video/scheda05.mp4",
+	videoSinistra: "video/trentadue.mp4",
+    videoDestra: "video/zattera.mp4",
+	primoBubble:"Per l’occasione ho generato un paio di cloni, vediamo se sai contare.",
+	secondoBubble:"2",
+	terzoBubble:"3",
+	quartoBubble:"4",
+	reactionSinistra:"Pare di no…ma ti vengo incontro",
+	reactionDestra:"destra",
   },
 ];
 // inizializza la pagina corrente (viene caricata sotto)
 var paginaCorrente = 0;
 var sorgente = document.getElementById("source");
 
+//variabili del timer
 var due;
 var tre;
 var quattro;
@@ -88,14 +126,14 @@ function changeVideo(pulsante) {
     sorgente.setAttribute("src", data[paginaCorrente].videoSinistra);
 	document.getElementById("button_right").disabled=true;
 	document.getElementById("bubble").innerHTML = data[paginaCorrente].reactionSinistra;
-	window.setTimeout(change, 6000);
+	window.setTimeout(change, 5000);
 	stop();
 	
   } else if (pulsante == "button_right") {
     sorgente.setAttribute("src", data[paginaCorrente].videoDestra);
 	document.getElementById("button_left").disabled=true;
 	document.getElementById("bubble").innerHTML = data[paginaCorrente].reactionDestra;
-	window.setTimeout(change, 6000);
+	window.setTimeout(change, 5000);
 	stop();
 	
   } else {
