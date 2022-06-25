@@ -12,8 +12,8 @@ var data = [
     videoDestra: "video/metallo.mp4",
 	primoBubble:"Partiamo con una domanda semplice",
 	secondoBubble:"Cosa preferirebbe mangiare D011yX?",
-	terzoBubble:"3Cosa preferirebbe mangiare D011yX?",
-	quartoBubble:"4Cosa preferirebbe mangiare D011yX?",
+	terzoBubble:"Cosa preferirebbe mangiare D011yX?",
+	quartoBubble:"Cosa preferirebbe mangiare D011yX?",
 	reactionSinistra:"Tsk, scelta prevedibile",
 	reactionDestra:"...diamine.",
   },
@@ -24,12 +24,12 @@ var data = [
 	video: "video/scheda02.mp4",
 	videoSinistra: "video/lampione.mp4",
     videoDestra: "video/cespuglio.mp4",
-	primoBubble:"",
-	secondoBubble:"",
-	terzoBubble:"",
-	quartoBubble:"",
-	reactionSinistra:"",
-	reactionDestra:"",
+	primoBubble:"Oh nooo, c\'\u00E8 un lupo affamato di pixel!",
+	secondoBubble:"Presto nascondi D011yX",
+	terzoBubble:"Presto nascondi D011yX",
+	quartoBubble:"Presto nascondi D011yX",
+	reactionSinistra:"Uhuh, scelta interessante, fortuna che \u00E8 2D",
+	reactionDestra:"Bravo, d\'altronde questo lupo \u00E8 scemo ",
   },
   {
     domanda: "Pulisci D011yX",
@@ -40,6 +40,12 @@ var data = [
 // inizializza la pagina corrente (viene caricata sotto)
 var paginaCorrente = 0;
 var sorgente = document.getElementById("source");
+
+var due;
+var tre;
+var quattro;
+
+
 // Funziona che carica la paginaCorrente
 function caricaPaginaCorrente() {
   document.getElementById("domanda").innerHTML = data[paginaCorrente].domanda;
@@ -51,9 +57,9 @@ function caricaPaginaCorrente() {
 	 document.getElementById("button_right").disabled=false;
   sorgente.setAttribute("src", data[paginaCorrente].video);
   document.getElementById("bubble").innerHTML = data[paginaCorrente].primoBubble;
-  setTimeout(testiBubbleDue, 3000);
-  setTimeout(testiBubbleTre, 6000);
-  setTimeout(testiBubbleQuattro, 9000);
+  due = setTimeout(testiBubbleDue, 3000);
+  tre = setTimeout(testiBubbleTre, 6000);
+  quattro = setTimeout(testiBubbleQuattro, 9000);
  }
 // carica la prima pagina (viene eseguito al load)
 caricaPaginaCorrente();
@@ -83,18 +89,28 @@ function changeVideo(pulsante) {
 	document.getElementById("button_right").disabled=true;
 	document.getElementById("bubble").innerHTML = data[paginaCorrente].reactionSinistra;
 	window.setTimeout(change, 6000);
-	return;
+	stop();
+	
   } else if (pulsante == "button_right") {
     sorgente.setAttribute("src", data[paginaCorrente].videoDestra);
 	document.getElementById("button_left").disabled=true;
 	document.getElementById("bubble").innerHTML = data[paginaCorrente].reactionDestra;
 	window.setTimeout(change, 6000);
+	stop();
+	
   } else {
     alert(
       "Questo non può accadere. Controlla (o dici di controllare) il codice! :)"
     );
   }
 }
+ 
+ function stop() {
+  clearTimeout(due);
+  clearTimeout(tre);
+ clearTimeout(quattro);
+}
+
 // Chiamato automaticamente alla fine del video,
 // carica la pagina successiva
 // NON funziona perché il video è in loop, quindi non finisce :)
@@ -106,4 +122,6 @@ function change() {
   paginaCorrente += 1;
   caricaPaginaCorrente();
 }
+
+
 
