@@ -40,7 +40,6 @@ color:191411;
 #button_left{
   background-color: #FFF9F0;
   color:black;
-  font-family: 'Nunito', sans-serif;
   padding:6%;
   width: 50%;
   border: none;
@@ -52,8 +51,7 @@ color:191411;
 
 #button_right{
   background-color: #FFF9F0;
-   color:black;
-  font-family: 'Nunito', sans-serif;
+  color:black;
   padding:6%;
   width: 50%;
   border: none;
@@ -190,14 +188,14 @@ width:20%;
 	gap:5%;
    }
    
-.bubble{
+#bubble{
 width:40%;
    padding: 2%;
    font-size:12px;
    margin:0;
    }
    
-.bubble:after {
+#bubble:after {
     content: '';
     position: absolute;
     display: block;

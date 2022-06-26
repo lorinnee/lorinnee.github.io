@@ -25,9 +25,9 @@ var data = [
 	videoSinistra: "video/lampione.mp4",
     videoDestra: "video/cespuglio.mp4",
 	primoBubble:"Oh nooo, c\'\u00E8 un lupo affamato di pixel!",
-	secondoBubble:"Presto nascondi D011yX",
-	terzoBubble:"Presto nascondi D011yX",
-	quartoBubble:"Presto nascondi D011yX",
+	secondoBubble:"Presto nascondi D011yX!",
+	terzoBubble:"Presto nascondi D011yX!",
+	quartoBubble:"Presto nascondi D011yX!",
 	reactionSinistra:"Uhuh, scelta interessante, fortuna che \u00E8 2D",
 	reactionDestra:"Bravo, d\'altronde questo lupo \u00E8 scemo ",
   },
@@ -52,12 +52,12 @@ var data = [
 	video: "video/scheda04.mp4",
 	videoSinistra: "video/veliero.mp4",
     videoDestra: "video/zattera.mp4",
-	primoBubble:"D011yX vuole cambiare sponda,scegli il mezzo adatto ",
+	primoBubble:"D011yX vuole cambiare sponda, scegli il mezzo adatto ",
 	secondoBubble:"2",
 	terzoBubble:"3",
 	quartoBubble:"4",
 	reactionSinistra:"Ahrrrrr! Per tutti i bucanieri! Un lupo di mare! ",
-	reactionDestra:"chi sceglierebbe una zattera?",
+	reactionDestra:"Chi sceglierebbe una zattera?",
   },
   {
     domanda: "Quante D011y ci sono?",
@@ -65,13 +65,69 @@ var data = [
     rispostaDestra: "Uno",
 	video: "video/scheda05.mp4",
 	videoSinistra: "video/trentadue.mp4",
-    videoDestra: "video/zattera.mp4",
+    videoDestra: "video/placeholder.mp4",
 	primoBubble:"Per l’occasione ho generato un paio di cloni, vediamo se sai contare.",
 	secondoBubble:"2",
 	terzoBubble:"3",
 	quartoBubble:"4",
-	reactionSinistra:"Pare di no…ma ti vengo incontro",
+	reactionSinistra:"Pare di no...ma ti vengo incontro",
 	reactionDestra:"destra",
+  },
+  {
+    domanda: "Colora D011yX",
+    rispostaSinistra: "&#128149",
+    rispostaDestra: "&#127752",
+	video: "video/scheda06.mp4",
+	videoSinistra: "video/cuori.mp4",
+    videoDestra: "video/arcobaleno.mp4",
+	primoBubble:"1",
+	secondoBubble:"2",
+	terzoBubble:"3",
+	quartoBubble:"4",
+	reactionSinistra:"Ottima scelta, hai stile!",
+	reactionDestra:"Ottima scelta, hai stile!",
+  },
+   {
+    domanda: "Conta le D011y",
+    rispostaSinistra: "sx",
+    rispostaDestra: "dx",
+	video: "video/scheda07.mp4",
+	videoSinistra: "video/cadute.mp4",
+    videoDestra: "video/placeholder.mp4",
+	primoBubble:"1",
+	secondoBubble:"2",
+	terzoBubble:"3",
+	quartoBubble:"4",
+	reactionSinistra:"sinistra",
+	reactionDestra:"destra",
+  },
+   {
+    domanda: "Salva D011yX",
+    rispostaSinistra: "Filo blu",
+    rispostaDestra: "Filo rosso",
+	video: "video/scheda08.mp4",
+	videoSinistra: "video/filo.mp4",
+    videoDestra: "video/filo.mp4",
+	primoBubble:"Il malvagio hacker R3t3p ha installato una bomba su D011yX,",
+	secondoBubble:"disinnesca la bomba, tagliando il filo giusto",
+	terzoBubble:"3",
+	quartoBubble:"4",
+	reactionSinistra:"Come hai fatto a sbagliare?",
+	reactionDestra:"Come hai fatto a sbagliare?",
+  },
+   {
+    domanda: "Cura D011yX",
+    rispostaSinistra: "Fiori",
+    rispostaDestra: "Fieno",
+	video: "video/scheda09.mp4",
+	videoSinistra: "video/fiori.mp4",
+    videoDestra: "video/fieno.mp4",
+	primoBubble:"D011yX sembra un po\' sfiancata, forse del cibo l\'aiuter\u00E0",
+	secondoBubble:"2",
+	terzoBubble:"3",
+	quartoBubble:"4",
+	reactionSinistra:"Ah non \u00E8 servito a molto, ma forse le far\u00E0 comunque piacere",
+	reactionDestra:"Ah non \u00E8 servito a molto, ma forse le far\u00E0 comunque piacere",
   },
 ];
 // inizializza la pagina corrente (viene caricata sotto)
@@ -124,6 +180,7 @@ function changeVideo(pulsante) {
   console.log(pulsante);
   if (pulsante == "button_left") {
     sorgente.setAttribute("src", data[paginaCorrente].videoSinistra);
+	document.getElementById("button_left").disabled=true;
 	document.getElementById("button_right").disabled=true;
 	document.getElementById("bubble").innerHTML = data[paginaCorrente].reactionSinistra;
 	window.setTimeout(change, 5000);
@@ -132,6 +189,7 @@ function changeVideo(pulsante) {
   } else if (pulsante == "button_right") {
     sorgente.setAttribute("src", data[paginaCorrente].videoDestra);
 	document.getElementById("button_left").disabled=true;
+	document.getElementById("button_right").disabled=true;
 	document.getElementById("bubble").innerHTML = data[paginaCorrente].reactionDestra;
 	window.setTimeout(change, 5000);
 	stop();
