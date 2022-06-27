@@ -4,12 +4,12 @@
   <link rel="stylesheet" href="style.css" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-  <script src="java.js" type="text/javascript"> </script>
+  
  </head>
  <body>
   <div class="fondo">
     <img id="logo" src ="immagini/logo.png">
-   <button onclick="document.location='scheda_nutri.html'" class="start">START</button>
+   <button onclick="document.location='scheda_nutri.html'" class="start">Start</button>
   </div>
  </body>
 </html>

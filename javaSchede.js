@@ -215,9 +215,16 @@ function changeVideo(pulsante) {
 // window.setTimeout(change, 2000);
 // Sostituite i 2 secondi con il tempo che volete che sia
 function change() {
+ if (paginaCorrente != 8){
   paginaCorrente += 1;
   caricaPaginaCorrente();
+ } else {
+   nuova();
+   }
 }
 
 
+function nuova(){
+	document.location="index.html";
+}
 

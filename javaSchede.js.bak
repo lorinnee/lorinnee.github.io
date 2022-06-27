@@ -121,7 +121,7 @@ var data = [
     rispostaDestra: "Fieno",
 	video: "video/scheda09.mp4",
 	videoSinistra: "video/fiori.mp4",
-    videoDestra: "video/fieno.mp4",
+    videoDestra: "video/fieno02.mp4",
 	primoBubble:"D011yX sembra un po\' sfiancata, forse del cibo l\'aiuter\u00E0",
 	secondoBubble:"2",
 	terzoBubble:"3",
@@ -215,9 +215,16 @@ function changeVideo(pulsante) {
 // window.setTimeout(change, 2000);
 // Sostituite i 2 secondi con il tempo che volete che sia
 function change() {
+ if (paginaCorrente != 8){
   paginaCorrente += 1;
   caricaPaginaCorrente();
+ } else {//alert ("ue");
+   nuova();
+   }
 }
 
 
+function nuova(){
+	document.location="index.html";
+}
 
