@@ -22,7 +22,7 @@
          </div>
   </div>
   <div class="allrobot">
-     <p id="bubble" class="bubble"></p> 
+     <p id="bubble"></p> 
 	  <img id="robot" src ="immagini/base.png">
 	 </div>
 	 <script src="javaSchede.js" type="text/javascript"> </script>

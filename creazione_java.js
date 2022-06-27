@@ -1,24 +1,28 @@
 var data = {
-	primoBubble:"Benvenuto, oggi analizzeremo le tue capacit\u00E0 di problem solving",
-	secondoBubble:"Io sono P3t3r, l\'assistente digitale che ti giudicher\u00E0",
-	terzoBubble:"questa invece \u00E8 D011yX, una pecora digitale da me creata",
-	quartoBubble:"che sfrutteremo per eseguire il test",
-	quintoBubble:"INIZIAMO!",
-	spriteUno:"immagini/a7.png",
+	primoBubble:"Benvenuto!",
+	secondoBubble:"oggi analizzeremo le tue capacit\u00E0 di problem solving",
+	terzoBubble:"Io sono P3t3r, l\'assistente digitale che ti giudicher\u00E0",
+	quartoBubble:"questa invece \u00E8 D011yX, una pecora digitale da me creata",
+	quintoBubble:"la sfrutteremo per eseguire il test",
+	sestoBubble:"INIZIAMO!",
+	spriteUno:"immagini/d3.png",
 	spriteDue:"immagini/a8.png",
-	spriteTre:"immagini/a2.png",
-	spriteQuattro:"immagini/a3.png",
-	spriteCinque:"immagini/a4.png",
+	spriteTre:"immagini/a4.png",
+	spriteQuattro:"immagini/c4.png",
+	spriteCinque:"immagini/c4.png",
+	spriteSei:"immagini/a2.png",
 };
 
 
 function carica(){
 document.getElementById("bubble").innerHTML = data.primoBubble;
 document.getElementById("robot").src= data.spriteUno;
-setTimeout(testiBubbleDue, 3000);
-setTimeout(testiBubbleTre, 6000);
-setTimeout(testiBubbleQuattro, 9000);
-setTimeout(nuova, 12000);
+setTimeout(testiBubbleDue, 4000);
+setTimeout(testiBubbleTre, 8000);
+setTimeout(testiBubbleQuattro, 12000);
+setTimeout(testiBubbleCinque, 16000);
+setTimeout(testiBubbleSei, 20000);
+setTimeout(nuova, 24000);
 }
 
 carica();
@@ -35,10 +39,17 @@ function testiBubbleQuattro() {
  document.getElementById("bubble").innerHTML = data.quartoBubble;
  document.getElementById("robot").src= data.spriteQuattro;
 }
-function testiBubbleQuattro() {
+function testiBubbleCinque() {
  document.getElementById("bubble").innerHTML = data.quintoBubble;
  document.getElementById("robot").src= data.spriteCinque;
 }
+function testiBubbleSei() {
+ document.getElementById("bubble").innerHTML = data.sestoBubble;
+ document.getElementById("robot").src= data.spriteSei;
+}
+
+
+
 
 function nuova(){
     document.location="scheda_nutri.html";
