@@ -22,7 +22,7 @@ setTimeout(testiBubbleTre, 8000);
 setTimeout(testiBubbleQuattro, 12000);
 setTimeout(testiBubbleCinque, 16000);
 setTimeout(testiBubbleSei, 20000);
-setTimeout(nuova, 24000);
+setTimeout(nuova, 22000);
 }
 
 carica();

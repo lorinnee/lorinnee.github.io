@@ -46,7 +46,7 @@ function check() {
   if ( wordList.some(checkValue) === true){
    document.getElementById("bubble").innerHTML = data.giustaBubble;
    document.getElementById("robot").src= data.spriteGiusta;
-   setTimeout(nuova, 4000);
+   setTimeout(nuova, 2000);
    }
    else {
           document.getElementById("bubble").innerHTML = data.sbagliataBubble;

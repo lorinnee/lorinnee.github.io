@@ -3,7 +3,7 @@ var data = {
 	secondoBubble:"oggi analizzeremo le tue capacit\u00E0 di problem solving",
 	terzoBubble:"Io sono P3t3r, l\'assistente digitale che ti giudicher\u00E0",
 	quartoBubble:"questa invece \u00E8 D011yX, una pecora digitale da me creata",
-	quintoBubble:"che sfrutteremo per eseguire il test",
+	quintoBubble:"la sfrutteremo per eseguire il test",
 	sestoBubble:"INIZIAMO!",
 	spriteUno:"immagini/d3.png",
 	spriteDue:"immagini/a8.png",

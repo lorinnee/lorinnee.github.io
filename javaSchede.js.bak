@@ -71,9 +71,9 @@ var data = [
 	videoSinistra: "video/veliero.mp4",
     videoDestra: "video/zattera.mp4",
 	primoBubble:"D011yX vuole cambiare sponda, scegli il mezzo adatto ",
-	secondoBubble:"2",
-	terzoBubble:"3",
-	quartoBubble:"4",
+	secondoBubble:"Il veliero è un veliero, ovvero una barca che veleggia.",
+	terzoBubble:"Le sue vele vanno a vela nelle vele che veleggiano.",
+	quartoBubble:"Sai? quella zattera \u00E8 una copia del dipinto di Th\u00E8odore G\u00E8ricault.",
 	spriteUno:"immagini/a8.png",
 	spriteDue:"immagini/c1.png",
 	spriteTre:"immagini/c1.png",
@@ -240,7 +240,7 @@ function changeVideo(pulsante) {
 	document.getElementById("button_right").disabled=true;
 	document.getElementById("bubble").innerHTML = data[paginaCorrente].reactionSinistra;
 	document.getElementById("robot").src= data[paginaCorrente].spriteSinistra;
-	window.setTimeout(change, 6000);
+	window.setTimeout(change, 5000);
 	stop();
 	
   } else if (pulsante == "button_right") {
@@ -249,7 +249,7 @@ function changeVideo(pulsante) {
 	document.getElementById("button_right").disabled=true;
 	document.getElementById("bubble").innerHTML = data[paginaCorrente].reactionDestra;
 	document.getElementById("robot").src= data[paginaCorrente].spriteDestra;
-	window.setTimeout(change, 6000);
+	window.setTimeout(change, 5000);
 	stop();
 	
   } else {

@@ -45,10 +45,11 @@ function checkValue(x) {
 function check() {
   if ( wordList.some(checkValue) === true){
    document.getElementById("bubble").innerHTML = data.giustaBubble;
-   document.getElementById("bubble").innerHTML = data.spriteGiusta;
+   document.getElementById("robot").src= data.spriteGiusta;
    setTimeout(nuova, 4000);
    }
    else {
           document.getElementById("bubble").innerHTML = data.sbagliataBubble;
+		  document.getElementById("robot").src= data.spriteSbagliata;
         }
 }
