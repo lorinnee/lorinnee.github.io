@@ -23,12 +23,9 @@ color:191411;
   background-color:#518C31;
   border-radius: 10px;
   text-align:center;
-  //box-shadow: 10px 10px 5px rgba(0,0,0,0.1); 
-  
 }
 
-
-  
+ 
 .allrobot{
 	display:flex;
 	flex-direction:column;
@@ -85,15 +82,13 @@ width:70%;
 }
 
 #robot{
-width:20%;
+width:22%;
 }
 .allrobot{
 	flex-direction:row;
     position:relative;
-	
-    right:0vw;
+	right:0vw;
 	bottom:2vh;
-	align-items: center;
 	justify-content:center;
 	gap:5%;
    }

@@ -177,21 +177,19 @@ width:70%;
 }
 
 #robot{
-width:20%;
+width:22%;
 }
 .allrobot{
 	flex-direction:row;
     position:relative;
-	
-    right:0vw;
+	right:0vw;
 	bottom:2vh;
-	align-items: center;
 	justify-content:center;
 	gap:5%;
    }
    
 #bubble{
-width:40%;
+   width:40%;
    padding: 2%;
    font-size:12px;
    margin:0;
