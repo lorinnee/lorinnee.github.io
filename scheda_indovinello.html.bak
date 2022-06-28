@@ -17,7 +17,7 @@
       </div>
 	  <div class="indovinello" >
         <input id="guess" maxlength='6' value=''/>
-		<input onclick="check()" type="submit" id="conferma" />
+		<input id="conferma" onclick="check()" type="submit" />
 		</div>
   </div>
   <div class="allrobot">

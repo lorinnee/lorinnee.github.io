@@ -206,9 +206,9 @@ function caricaPaginaCorrente() {
   sorgente.setAttribute("src", data[paginaCorrente].video);
   document.getElementById("bubble").innerHTML = data[paginaCorrente].primoBubble;
   document.getElementById("robot").src= data[paginaCorrente].spriteUno;
-  due = setTimeout(testiBubbleDue, 3000);
-  tre = setTimeout(testiBubbleTre, 6000);
-  quattro = setTimeout(testiBubbleQuattro, 9000);
+  due = setTimeout(testiBubbleDue, 4000);
+  tre = setTimeout(testiBubbleTre, 8000);
+  quattro = setTimeout(testiBubbleQuattro, 12000);
  }
  
 // carica la prima pagina (viene eseguito al load)
@@ -240,7 +240,7 @@ function changeVideo(pulsante) {
 	document.getElementById("button_right").disabled=true;
 	document.getElementById("bubble").innerHTML = data[paginaCorrente].reactionSinistra;
 	document.getElementById("robot").src= data[paginaCorrente].spriteSinistra;
-	window.setTimeout(change, 5000);
+	window.setTimeout(change, 6000);
 	stop();
 	
   } else if (pulsante == "button_right") {
@@ -249,7 +249,7 @@ function changeVideo(pulsante) {
 	document.getElementById("button_right").disabled=true;
 	document.getElementById("bubble").innerHTML = data[paginaCorrente].reactionDestra;
 	document.getElementById("robot").src= data[paginaCorrente].spriteDestra;
-	window.setTimeout(change, 5000);
+	window.setTimeout(change, 6000);
 	stop();
 	
   } else {

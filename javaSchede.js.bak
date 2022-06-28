@@ -110,7 +110,7 @@ var data = [
 	video: "video/scheda06.mp4",
 	videoSinistra: "video/cuori.mp4",
     videoDestra: "video/arcobaleno.mp4",
-	primoBubble:"Dopo tutti i test effettuati, la lettera di serie di D011y si \u00E8 cancellata.",
+	primoBubble:"Dopo tutti i test, la lettera di serie di D011y si \u00E8 cancellata.",
 	secondoBubble:"Scegli un nuovo simbolo identificativo.",
 	terzoBubble:"Scegli un nuovo simbolo identificativo.",
 	quartoBubble:"Scegli un nuovo simbolo identificativo.",
@@ -206,9 +206,9 @@ function caricaPaginaCorrente() {
   sorgente.setAttribute("src", data[paginaCorrente].video);
   document.getElementById("bubble").innerHTML = data[paginaCorrente].primoBubble;
   document.getElementById("robot").src= data[paginaCorrente].spriteUno;
-  due = setTimeout(testiBubbleDue, 3000);
-  tre = setTimeout(testiBubbleTre, 6000);
-  quattro = setTimeout(testiBubbleQuattro, 9000);
+  due = setTimeout(testiBubbleDue, 4000);
+  tre = setTimeout(testiBubbleTre, 8000);
+  quattro = setTimeout(testiBubbleQuattro, 12000);
  }
  
 // carica la prima pagina (viene eseguito al load)

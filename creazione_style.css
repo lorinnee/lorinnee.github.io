@@ -116,3 +116,13 @@ width:22%;
  }
    
 }
+@media screen and (max-width: 360px) {
+	
+#bubble{
+   width:40%;
+   padding: 2%;
+   font-size:11px;
+   margin:0;
+   }
+   
+}
