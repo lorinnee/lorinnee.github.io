@@ -206,9 +206,9 @@ function caricaPaginaCorrente() {
   sorgente.setAttribute("src", data[paginaCorrente].video);
   document.getElementById("bubble").innerHTML = data[paginaCorrente].primoBubble;
   document.getElementById("robot").src= data[paginaCorrente].spriteUno;
-  due = setTimeout(testiBubbleDue, 4000);
-  tre = setTimeout(testiBubbleTre, 8000);
-  quattro = setTimeout(testiBubbleQuattro, 12000);
+  due = setTimeout(testiBubbleDue, 6000);
+  tre = setTimeout(testiBubbleTre, 12000);
+  quattro = setTimeout(testiBubbleQuattro, 18000);
  }
  
 // carica la prima pagina (viene eseguito al load)
