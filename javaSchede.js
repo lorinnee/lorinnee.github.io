@@ -129,7 +129,7 @@ var data = [
     rispostaDestra: "Una",
 	video: "video/scheda07.mp4",
 	videoSinistra: "video/cadute.mp4",
-    videoDestra: "video/placeholder.mp4",
+    videoDestra: "video/una.mp4",
 	primoBubble:"Voi umani utilizzate questo strano metodo per addormentarvi",
 	secondoBubble:"Ma vi siete mai chiesti dove vanno a finire?",
 	terzoBubble:"Contale e scopri cosa succede.",

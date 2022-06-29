@@ -86,7 +86,7 @@ var data = [
   {
     domanda: "Conta le D011y",
     rispostaSinistra: "Trentadue",
-    rispostaDestra: "Uno",
+    rispostaDestra: "Trentacinque",
 	video: "video/scheda05.mp4",
 	videoSinistra: "video/trentadue.mp4",
     videoDestra: "video/placeholder.mp4",
