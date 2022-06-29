@@ -1,8 +1,8 @@
 <html>
  <head>
   <title> Oh,sheep!</title>
+  <link rel="icon" type="image/x-icon" href="immagini/icon_face.ico">
   <link rel="stylesheet" href="indovinello_style.css" type="text/css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
   
  </head>

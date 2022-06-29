@@ -35,7 +35,7 @@ function nuova(){
 
 
 
-const wordList = ["dollyx","DOLLYX", "DollyX","Dollyx", "D011yX", "d011yX", "d011yx", "pecora", "Pecora", "PECORA"];
+const wordList = ["dollyx","DOLLYX", "DollyX","Dollyx", "D011yX", "d011yX", "d011yx", "do11yX","do11yx", "Do11yx", "Do11yX", "pecora", "Pecora", "PECORA"];
 
 
 function checkValue(x) {
