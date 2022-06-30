@@ -1,7 +1,3 @@
-// La struttura dati principale
-// I dati di ogni pagina sono i singoli elementi dell'array
-// la pagina corrente (ie: l'indice nell'array) è nella variabile paginaCorrente)
-// Solo la prima pagina è completa. Le altre devono essere (ovviamente) uguali
 var data = [
   {
     domanda: "Nutri D011yX",
@@ -85,8 +81,8 @@ var data = [
   },
   {
     domanda: "Conta le D011y",
-    rispostaSinistra: "Trentadue",
-    rispostaDestra: "Trentacinque",
+    rispostaSinistra: "32",
+    rispostaDestra: "35",
 	video: "video/scheda05.mp4",
 	videoSinistra: "video/trentadue.mp4",
     videoDestra: "video/trentacinque.mp4",
@@ -125,8 +121,8 @@ var data = [
   },
    {
     domanda: "Conta D011y",
-    rispostaSinistra: "Zero",
-    rispostaDestra: "Una",
+    rispostaSinistra: "0",
+    rispostaDestra: "1",
 	video: "video/scheda07.mp4",
 	videoSinistra: "video/cadute.mp4",
     videoDestra: "video/una.mp4",
@@ -238,6 +234,7 @@ function changeVideo(pulsante) {
     sorgente.setAttribute("src", data[paginaCorrente].videoSinistra);
 	document.getElementById("button_left").disabled=true;
 	document.getElementById("button_right").disabled=true;
+	
 	document.getElementById("bubble").innerHTML = data[paginaCorrente].reactionSinistra;
 	document.getElementById("robot").src= data[paginaCorrente].spriteSinistra;
 	window.setTimeout(change, 5000);

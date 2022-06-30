@@ -64,9 +64,9 @@ color:191411;
   }
   
   
- #button_left:active{
+ #button_left:focus{
   background-color: #FFF9F0;
-  color:black;
+  color:green;
   font-family: 'Nunito', sans-serif;
   padding:6%;
   width: 50%;
@@ -78,9 +78,9 @@ color:191411;
   transform: translateY(4px);
   }
 
-#button_right:active{
+#button_right:focus{
   background-color: #FFF9F0;
-   color:black;
+   color:green;
   font-family: 'Nunito', sans-serif;
   padding:6%;
   width: 50%;
