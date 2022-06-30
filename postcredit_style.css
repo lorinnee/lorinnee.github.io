@@ -15,3 +15,35 @@ color:191411;
   justify-content:center;
   padding:5vh;
 }
+
+
+
+#mobile{
+	display:none;
+}
+ 
+@media screen and (max-width: 480px) {
+.fondo{
+	margin-top:15vh;
+}
+#mobile{
+	display:inline;
+}
+
+#desktop{
+	display:none;
+}
+
+
+@media screen and (max-width: 360px) {
+.fondo{
+	margin-top:15vh;
+}
+#mobile{
+	display:inline;
+}
+
+#desktop{
+	display:none;
+}
+}

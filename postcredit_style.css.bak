@@ -14,5 +14,30 @@ color:191411;
   align-items:center;
   justify-content:center;
   padding:5vh;
+}
+
+
+
+#mobile{
+	display:none;
+}
+ 
+@media screen and (max-width: 480px) {
+.fondo{
+	margin-top:15vh;
+}
+#mobile{
+	display:inline;
+}
+
+#desktop{
+	display:none;
+}
+
+
+@media screen and (max-width: 360px) {
+.fondo{
+	margin-top:15vh;
+}
 
 }
