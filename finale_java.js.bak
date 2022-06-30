@@ -1,0 +1,4 @@
+
+function nuova(){
+    document.location="postcredit.html";
+}

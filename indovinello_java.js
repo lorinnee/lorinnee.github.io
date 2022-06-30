@@ -30,7 +30,7 @@ function testiBubbleDue() {
 
 
 function nuova(){
-    document.location="postcredit.html";
+    document.location="finale_nuvola.html";
 }
 
 

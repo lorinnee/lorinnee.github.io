@@ -121,9 +121,7 @@ width:70%;
 	margin-top:15vh;
 }
 
-h1{
-	font-size:24px;
-}
+
 
 .indovinello{
   display: flex;
@@ -186,6 +184,10 @@ width:40%;
 @media screen and (max-width: 360px) {
 .fondo{
 	margin-top:15vh;
+}
+
+h1{
+	font-size:24px;
 }
 
 .indovinello{
